@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default (ChildComponent) => {
+export default ChildComponent => {
   class ComposedComponent extends Component {
     render() {
       return <ChildComponent />;
